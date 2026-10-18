@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Sonwe community plugins",
+    "zh": "Sonwe 社区插件"
+  },
+  "description": {
+    "en": "Independently maintained community bundles; no official endorsement.",
+    "zh": "独立维护的社区插件，不代表官方背书。"
+  },
+  "plugins": [
+    {
+      "name": "@sonwe1e/ambitious-prompt",
+      "title": "Ambitious Prompt",
+      "description": {
+        "en": "A portable skill for rethinking goals and methods with domain expertise.",
+        "zh": "用专业知识重审任务目标与方法的跨 Agent 技能。"
+      },
+      "author": "sonwe1e",
+      "homepage": "https://github.com/sonwe1e/ambitious-prompt#readme",
+      "repository": {
+        "url": "https://github.com/sonwe1e/ambitious-prompt"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792343305,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sonwe1e/ambitious-prompt",
+            "commit": "999589bb650cedebc76c6a65d52631532b8d8d27"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@sonwe1e/dsh-flow-next",
+      "title": "Flow Next",
+      "description": {
+        "en": "Experimental native DSH mode with task context, native/PTC selection, and check evidence.",
+        "zh": "提供任务上下文、native/PTC 切换和检查证据的 DSH 原生试用模式。"
+      },
+      "author": "sonwe1e",
+      "homepage": "https://github.com/sonwe1e/dsh-flow-next#readme",
+      "repository": {
+        "url": "https://github.com/sonwe1e/dsh-flow-next"
+      },
+      "versions": [
+        {
+          "version": "1.8.3",
+          "publishTimestamp": 1792343305,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sonwe1e/dsh-flow-next",
+            "commit": "f320872dc81a5c936b34cc38af4aa3fe283582e8"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}

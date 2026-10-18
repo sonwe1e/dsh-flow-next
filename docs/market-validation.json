@@ -1,0 +1,15 @@
+{
+  "host": "0.2.1-rc.2",
+  "officialParser": "@deepseek-ai/dsh-plugin-market-index",
+  "passed": true,
+  "targets": [
+    {
+      "name": "@sonwe1e/ambitious-prompt",
+      "spec": "git+https://github.com/sonwe1e/ambitious-prompt.git#999589bb650cedebc76c6a65d52631532b8d8d27"
+    },
+    {
+      "name": "@sonwe1e/dsh-flow-next",
+      "spec": "git+https://github.com/sonwe1e/dsh-flow-next.git#f320872dc81a5c936b34cc38af4aa3fe283582e8"
+    }
+  ]
+}
