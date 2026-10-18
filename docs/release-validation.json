@@ -1,0 +1,29 @@
+{
+  "host": "0.2.1-rc.2",
+  "modeVersion": "1.8.3",
+  "unitTests": {
+    "passed": 131,
+    "failed": 0,
+    "skipped": 0
+  },
+  "installedHostSmoke": {
+    "fixedRequests": 3,
+    "providerDispatches": 0,
+    "skillProvider": "ambitious-prompt",
+    "checks": {
+      "bundleMount": true,
+      "companionSkillLoad": true,
+      "nativeToPtc": true,
+      "realFileEdit": true,
+      "existingCheck": true,
+      "permissionGuard": true,
+      "neighborScope": true,
+      "actualGuidance": true,
+      "versionCommand": true
+    },
+    "guidanceSha256": "ad3c570c622a0ef23dd17bb4ae9b5e56f057766b7ed2adcf2ae1b470833a594b",
+    "limitation": "Fixed responses verify native mechanisms, not model task quality or performance."
+  },
+  "distribution": "Standalone package; no model performance comparison was run.",
+  "platform": "Windows desktop; runtime behavior on other platforms has not been exercised."
+}

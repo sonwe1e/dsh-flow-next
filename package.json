@@ -1,0 +1,60 @@
+{
+  "name": "@sonwe1e/dsh-flow-next",
+  "version": "1.8.3",
+  "type": "module",
+  "license": "MIT",
+  "author": "sonwe1e",
+  "description": "Flow Next for DeepSeek Harness: native/PTC selection, task context, check execution evidence and stage reports. Experimental.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonwe1e/dsh-flow-next.git"
+  },
+  "homepage": "https://github.com/sonwe1e/dsh-flow-next#readme",
+  "bugs": {
+    "url": "https://github.com/sonwe1e/dsh-flow-next/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-preset",
+    "flow-next",
+    "verification"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": "0.2.1-rc.2"
+  },
+  "dependencies": {
+    "zod": "4.4.3"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-llm": "0.2.1-rc.2"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./flow-next": "./modes/flow-next-preset.js",
+    "./flow-next-policy": "./modes/flow-next-policy.js",
+    "./flow-context-policy": "./modes/flow-context-policy.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "lib/*.js",
+    "modes/*.js",
+    "modes/*.json",
+    "docs/",
+    "LICENSE",
+    "NOTICE.md",
+    "third-party/"
+  ],
+  "scripts": {
+    "test": "node scripts/test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
